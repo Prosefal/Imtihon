@@ -1,0 +1,320 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/plus-jakarta-sans-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/plus-jakarta-sans-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/plus-jakarta-sans-v3-latin-regular.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+  }
+  /* plus-jakarta-sans-500 - latin */
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/plus-jakarta-sans-v3-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/plus-jakarta-sans-v3-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/plus-jakarta-sans-v3-latin-500.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+  }
+  /* plus-jakarta-sans-600 - latin */
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/plus-jakarta-sans-v3-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/plus-jakarta-sans-v3-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/plus-jakarta-sans-v3-latin-600.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+  }
+  /* plus-jakarta-sans-700 - latin */
+  @font-face {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/plus-jakarta-sans-v3-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/plus-jakarta-sans-v3-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/plus-jakarta-sans-v3-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/plus-jakarta-sans-v3-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/plus-jakarta-sans-v3-latin-700.svg#PlusJakartaSans') format('svg'); /* Legacy iOS */
+  }
+
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1440px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+  }
+
+/*------------------------------------------------------------------- HEADER --------------------------------------------------------*/
+
+.logo-container{
+    margin: 30px 50px 31px 112px;
+}
+.logo-link:hover{
+    opacity: 0.8;
+    background: #191919;
+}
+.container-box{
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+}
+.list-item{
+    list-style-type: none;
+
+}
+.link{
+    text-decoration: none;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #101010;
+}
+#services:hover{
+    color: #1AAB7B;
+}
+#services:active{
+    color: #1AAB7B;
+    opacity: 0.6;
+}
+.tel-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+.list-item{
+    margin-left: 30px;
+}
+.header-nav{
+    margin-right: 527px;
+}
+.list-item:first-child{
+    margin-left: 0;
+}
+.tel-link{
+    background-color: #000;
+    border-radius: 6px;
+    padding: 12px 24px;
+}
+
+.tel-link:hover{
+    color: #1AAB7B;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid #1AAB7B;
+}
+.tel-link:active{
+    background: #101010;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.nav-line{
+    border-bottom: 1px solid #EEEEF4;
+    background: #FFFFFF;
+}
+/*------------------------------------------------------------------------------------------ FINISH HEADER ---------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------- HERO */
+
+.hero-contents{
+    margin-left: 150px;
+}
+.title-container{
+    width: 550px;
+    margin-top: 91px;
+    margin-bottom: 20px;
+}
+.hero-title{
+    font-size: 56px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.container-hero-text{
+    width: 550px;
+}
+.hero-text{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.hero-contents{
+     display: flex; 
+}
+.iframe{
+    margin-top: 92px;
+    border-radius: 6px;
+}
+.container-learn-link{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+.learn-link{
+    padding: 20px 40px;
+    border-radius: 6px;
+    background: #1AAB7B;
+    color: #fff;
+}
+.learn-link:hover{
+    background: #FFFFFF;
+    border: 1.5px solid #1AAB7B;
+    border-radius: 6px;
+    color: #1AAB7B;
+}
+.learn-link:active{
+    background: #1AAB7B;
+    opacity: 0.7;
+    border-radius: 6px;
+    color: #fff;
+}
+/*-------------------------------------------------------------------------------- FINISH HERO */
+
+
+.intro-box{
+   width: 1440px;
+   margin-top: 150px;
+   background: #F2F4F6;
+   padding-top: 30px;
+}
+.intro-big-box{
+    margin-left: 112px;
+}
+.intro-title-box{
+    margin-top: 50px;
+    margin-left: 490px;
+    font-weight: 600;
+    font-size: 36px;
+}
+.intro-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.intro-content{
+    width: 384px;
+    border-radius: 6px;
+    padding-left: 30px;
+    background: #F2F4F6;
+    border-radius: 6px;
+    border: 2px solid #E1E7ED;
+    color: #101010
+}
+.intro-content:hover{
+    background: #1AAB7B;
+    color: #fff;
+}
+.intro-list-item{
+    margin-bottom: 32px;
+}
+.intro-list-item:nth-child(4){
+    margin-left: 0;
+}
+
+.container-small-intro-title{
+    display: flex;
+    align-items: center;
+
+    
+}
+.small-intro-titl{
+    font-weight: 600;
+    font-size: 32px;
+    margin-right: 64px;
+}
+.container-intro-text{
+    width: 384px;
+}
+.intro-text{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.intro-link{
+    color: #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+.container-work-title{
+    width: 307px;
+    margin-top: 100px;
+    margin-left: 566px;
+}
+.work-box{
+    display: flex;
+    margin-left: 112px;
+    margin-top: 30px;
+}
+.world-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: #101010;
+}
+.work-item{
+    margin: 0;
+}
+.container-work-text{
+    width: 650px;
+    margin-left: 395px;
+}
+.world-text{
+    font-weight: 400;
+    font-size: 18px;  
+}
+.small-work-title{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.work-smal-title{
+    margin-left: 32px;
+}
+.work-item:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.number-big-div{
+    display: flex;
+}
+.container-number-title{
+    width: 411px;
+    margin-left: 514px;
+    margin-top: 100px;
+}
+.number-title{
+    font-weight: 700;
+    font-size: 36px;
+}
+
